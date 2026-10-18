@@ -98,6 +98,25 @@ Created charts to make sales patterns and comparisons easier to understand, incl
 * Top 10 Customers by Revenue.
 * Top 10 Products by Quantity Sold.
 
+
+## Visualizations
+
+### 1. Monthly Revenue Trend
+![Monthly Revenue Trend](monthly_revenue_trend.png)
+
+### 2. Top Products by Revenue
+![Top Products by Revenue](top_products_by_revenue.png)
+
+### 3. Top Products by Quantity Sold
+![Top Products by Quantity](top_product_by_quantity.png)
+
+### 4. Top Customers by Revenue
+![Top Customers by Revenue](top_customers_by_revenue.png)
+
+### 5. Top Countries by Orders
+![Top Countries by Orders](top_country_by_orders.png)
+
+
 ### 5. Business Insights
 
 Summarized important findings from the analysis to understand product performance, sales trends, and customer activity.
