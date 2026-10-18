@@ -16,19 +16,26 @@ Using Python and its data analysis libraries, I cleaned the dataset, performed E
 * Explore customer purchasing activity.
 * Present findings through visualizations and business insights.
 
-##  Project Structure
+
+## Project Structure
 
 ```text
-E-commerce-Sales-Analysis/
-├── data/
-│   └── Online Retail.xlsx
-├── images/
-├── notebook/
-│   └── E-commerce Sales Analysis.ipynb
-├── sql/
-├── README.md
-└── requirements.txt
+Ecommerce-sales-analysis/
+├── E-commerce_Sales_Analysis.ipynb
+├── Readme.md
+├── sales_analysis.sql
+├── monthly_revenue_trend.png
+├── top_country_by_orders.png
+├── top_customers_by_revenue.png
+├── top_product_by_quantity.png
+└── top_products_by_revenue.png
 ```
+
+The notebook contains the Python data cleaning and
+exploratory data analysis. The SQL file contains
+queries for sales analysis, and the PNG files
+contain the visualizations.
+
 
 ##  Dataset
 
