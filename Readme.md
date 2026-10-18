@@ -145,23 +145,41 @@ Through this project, I gained practical experience in:
 * Interpreting data and communicating business insights.
 
 
+
 ## How to Run the Project
 
-1. Download or clone this repository.
-2. Download the Online Retail dataset from the
-   [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/352/online+retail).
-3. Place the Excel dataset in your local project folder.
-4. Install the required libraries:
+### 1. Clone the repository
 
-   ```bash
-   pip install pandas numpy matplotlib seaborn openpyxl
-   ```
+```bash
+git clone https://github.com/kaushiki0903/Ecommerce-sales-analysis.git
+cd Ecommerce-sales-analysis
+```
 
-5. Open `E-commerce_Sales_Analysis.ipynb` in VS Code or Jupyter Notebook.
-6. Update the dataset file path in the notebook if necessary.
-7. Select your Python environment and run the notebook cells.
-8. To explore the SQL analysis, open `sales_analysis.sql`
-   in a text editor or SQLite-compatible SQL tool.
+### 2. Install the dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Download the dataset
+
+Download the Online Retail dataset from the
+[UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/352/online+retail).
+
+Place the downloaded Excel file in your local project folder
+and update the file path in the notebook if necessary.
+
+### 4. Run the notebook
+
+Open `E-commerce_Sales_Analysis.ipynb` in VS Code or Jupyter Notebook
+and run the cells in order.
+
+### 5. Run the SQL analysis
+
+Open `sales_analysis.sql` and execute the queries using
+SQLite after creating the `online_retail_clean` table
+with the cleaning rules described in the notebook.
+
 
 ##  Future Improvements
 
