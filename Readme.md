@@ -20,6 +20,7 @@ Using Python and its data analysis libraries, I cleaned the dataset, performed E
 ## Project Structure
 
 ```text
+
 Ecommerce-sales-analysis/
 ├── E-commerce_Sales_Analysis.ipynb
 ├── Readme.md
@@ -29,6 +30,7 @@ Ecommerce-sales-analysis/
 ├── top_customers_by_revenue.png
 ├── top_product_by_quantity.png
 └── top_products_by_revenue.png
+
 ```
 
 The notebook contains the Python data cleaning and
@@ -123,25 +125,24 @@ Through this project, I gained practical experience in:
 * Creating visualizations using Matplotlib and Seaborn.
 * Interpreting data and communicating business insights.
 
-##  How to Run the Project
 
-1. Clone or download this repository.
+## How to Run the Project
 
-2. Open the project folder in VS Code.
-
-3. Create and activate a Python virtual environment if needed.
-
+1. Download or clone this repository.
+2. Download the Online Retail dataset from the
+   [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/352/online+retail).
+3. Place the Excel dataset in your local project folder.
 4. Install the required libraries:
 
    ```bash
-   pip install -r requirements.txt
+   pip install pandas numpy matplotlib seaborn openpyxl
    ```
 
-5. Ensure the dataset is available at the file path expected by the notebook.
-
-6. Open the notebook inside the `notebook/` folder.
-
-7. Select the appropriate Python kernel and run all cells.
+5. Open `E-commerce_Sales_Analysis.ipynb` in VS Code or Jupyter Notebook.
+6. Update the dataset file path in the notebook if necessary.
+7. Select your Python environment and run the notebook cells.
+8. To explore the SQL analysis, open `sales_analysis.sql`
+   in a text editor or SQLite-compatible SQL tool.
 
 ##  Future Improvements
 
